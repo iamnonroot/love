@@ -1,0 +1,13 @@
+app-main {
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p span {
+    font-weight: bold;
+}
+
+button {
+    margin: 10vh auto;
+}
