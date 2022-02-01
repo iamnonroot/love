@@ -1,7 +1,7 @@
 {
-  "name": "@townland-project/application",
+  "name": "@iamnonroot/lov",
   "version": "0.0.1",
-  "description": "Townland phone application boilerplate",
+  "description": "Love page",
   "main": "public/bundle.js",
   "scripts": {
     "serve": "webpack serve",
@@ -10,20 +10,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "townland",
-    "application",
-    "boilerplate"
+    "love",
+    "root",
+    "!#"
   ],
   "author": {
-    "name": "Townland",
-    "url": "https://townland.xyz",
-    "email": "mail@townland.xyz"
+    "name": "!Root",
+    "url": "https://iamroot.ir",
+    "email": "iamnonroot@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/townland-project/application.git"
+    "url": "https://github.com/iamnonroot/love.git"
   },
-  "homepage": "https://application.townland.xyz",
+  "homepage": "https://love.iamroot.ir",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.4",
@@ -40,10 +40,7 @@
     "webpack-dev-server": "^4.7.1"
   },
   "dependencies": {
-    "@townland-project/app": "*",
-    "@townland-project/dom": "*",
-    "@townland-project/eventer": "*",
-    "@townland-project/gui": "*"
+    "@townland-project/dom": "*"
   },
   "browserslist": [
     "last 1 Chrome versions"

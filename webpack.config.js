@@ -17,7 +17,7 @@ module.exports = {
                 loader: "ts-loader"
             },
             {
-                test: /\.htmlx$/i,
+                test: /\.html$/i,
                 use: [
                     {
                         loader: 'raw-loader',
@@ -34,18 +34,6 @@ module.exports = {
                     "css-loader",
                     "sass-loader",
                 ],
-            },
-            {
-                test: /\.s[ac]ssx$/i,
-                use: [
-                    {
-                        loader: 'raw-loader',
-                        options: {
-                            esModule: false,
-                        },
-                    },
-                    "sass-loader"
-                ]
             }
         ]
     },
